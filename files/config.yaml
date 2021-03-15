@@ -1,0 +1,33 @@
+colors:
+    primary: 'skyblue'
+    secondary: 'moccasin'
+    contrast: 'red'
+    background: 'whitesmoke'
+
+image:
+    width: 16
+    height: 9
+    # with an aspect =! 0, the gantt charts are not quadratic
+    aspect: 1.1
+    # resolution of image file, should be at least 72 (low quality)
+    dpi: 150
+    format: 'jpg'
+
+font:
+    fontsize: 11
+    
+milestones:
+    linewidth: 2.
+
+labels:
+    package_abbr: 'AP'
+    package_ylabel: 'Arbeitspakete'
+    milestones_abbr: 'MS'
+    phase_abbr: 'P'
+    phase_ylabel: 'Phasen'
+    xlabel: 'Monate'
+    # shows every nth label on x axis, with n = xticks_steps
+    xticks_steps: 1
+    
+    
+
